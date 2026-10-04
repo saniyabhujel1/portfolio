@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Sets the title shown in the browser tab -->
+    <title>Saniya Bhujel - Personal Portfolio</title>
+
+    <!-- Links the HTML page with the external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Website header with the portfolio name and navigation menu -->
+    <header>
+        <h1>Saniya Bhujel - Personal Portfolio</h1>
+
+        <!-- Navigation menu for moving between portfolio sections -->
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main area containing the portfolio information -->
+    <main>
+
+        <!-- About Me section containing personal information -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <!-- Displays the profile image and introduction -->
+            <div class="about-content">
+
+                <img src="images\saniyabhujel.jpeg" alt="Profile photo of Saniya Bhujel">
+
+                <p>
+                    Hello! My name is Saniya Bhujel. I am a BIT student
+                    interested in technology and software development. I enjoy
+                    learning about UI/UX designing, web development,
+                    programming, computer networking, and database management.
+                    I like creating simple, useful, and user-friendly digital
+                    solutions while developing my technical and creative skills.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- Skills section describing my technical abilities -->
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <!-- Description list used to provide information about each skill -->
+            <dl>
+
+                <dt>UI/UX Designing</dt>
+                <dd>Creating simple, attractive, and user-friendly interface designs.</dd>
+
+                <dt>Web Development</dt>
+                <dd>Developing structured and responsive websites using web technologies.</dd>
+
+                <dt>Programming</dt>
+                <dd>Writing programs and developing logical solutions to different problems.</dd>
+
+                <dt>Computer Networking</dt>
+                <dd>Understanding network concepts, communication, and basic network configuration.</dd>
+
+                <dt>Database Management</dt>
+                <dd>Working with databases to store, organize, and manage information efficiently.</dd>
+
+            </dl>
+        </section>
+
+        <!-- Projects section presenting some of my academic and personal work -->
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <!-- Holds the individual project cards -->
+            <div class="project-container">
+
+                <!-- Project card for the personal portfolio -->
+                <article class="project-card">
+                    <h3>Personal Portfolio Website</h3>
+
+                    <p>
+                        A personal portfolio website developed to introduce
+                        myself, display my technical skills, and showcase
+                        projects using HTML and CSS.
+                    </p>
+
+                    <!-- Link to the portfolio GitHub repository -->
+                    <a href="https://github.com/saniyabhujel1"
+                       target="_blank">
+                        View Project
+                    </a>
+                </article>
+
+                <!-- Project card for a student profile project -->
+                <article class="project-card">
+                    <h3>Student Profile Webpage</h3>
+
+                    <p>
+                        A student profile webpage created to practice webpage
+                        structure, styling, responsive design, and basic
+                        interactive features.
+                    </p>
+
+                    <!-- Link to the GitHub profile -->
+                    <a href="https://github.com/saniyabhujel1"
+                       target="_blank">
+                        View GitHub
+                    </a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contact section where visitors can send a message -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <!-- Form for collecting contact information -->
+            <form>
+
+                <!-- Input field for the visitor's name -->
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <!-- Input field for the visitor's email address -->
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <!-- Text area for the visitor's message -->
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                </div>
+
+                <!-- Button for submitting the contact form -->
+                <button type="submit">Send Message</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer displayed at the bottom of the portfolio -->
+    <footer>
+        <p>&copy; 2026 Saniya Bhujel. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
